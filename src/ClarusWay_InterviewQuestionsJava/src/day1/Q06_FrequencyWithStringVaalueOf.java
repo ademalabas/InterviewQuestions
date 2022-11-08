@@ -8,7 +8,7 @@ public class Q06_FrequencyWithStringVaalueOf {
      */
 
     public static void main(String[] args) {
-        String str = "Java is so Good";
+        String str = "Java  is so Good";
         String strOutput ="";
         for (int i = 0; i < str.length(); i++) {
             int counter=0;
@@ -17,9 +17,10 @@ public class Q06_FrequencyWithStringVaalueOf {
                     counter++;
                 }
             }
+
             if(!strOutput.contains(String.valueOf(str.charAt(i)))){ //char olan karakteri String e donsuturduk
                 strOutput += "" + str.charAt(i)  + counter +  " ";
-            }
+           }
         }
         System.out.println(strOutput);
     }
