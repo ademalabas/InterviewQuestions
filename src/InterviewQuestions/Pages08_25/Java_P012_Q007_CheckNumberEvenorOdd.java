@@ -2,6 +2,7 @@ package InterviewQuestions.Pages08_25;
 
 import java.util.Scanner;
 
+
 public class Java_P012_Q007_CheckNumberEvenorOdd {
     public static void main(String[] args) {
 // Questtion Even or odd number
