@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class Java_P012_Q007_CheckNumberEvenorOdd {
     public static void main(String[] args) {
+
 // Questtion Even or odd number
         Scanner scanner = new Scanner(System.in);
         System.out.print("Lutfen Bir sayi giriniz  ;");
