@@ -14,4 +14,43 @@ public class Q04_PerfectNumber {
     */
 
 
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("bir sayi giriniz");
+        int sayi = scan.nextInt();
+
+        perfectNumber(sayi);
+        girilenSayiyaKadarOlanPerfect(sayi);
+    }
+    private static void girilenSayiyaKadarOlanPerfect(int sayi) {
+        int toplam = 0;
+        for (int i = 1; i < sayi; i++) { //girilen sayiya bakar
+            for (int j = 1; j < i; j++) { //burada bolenler kontrol edilir
+                if(i%j == 0){ //sayinin herhangi bir boleni varsa
+                    toplam +=j;//bolenleri toplama ekle
+                }
+            }
+            if(toplam ==i) {
+                System.out.println(i + " mukemmel sayidir");
+            }
+            toplam =0;
+        }
+    }
+    private static void perfectNumber(int sayi) {
+        int toplam =0;
+        for (int i = 1; i <sayi ; i++) { //1 den basalyarak bolenleri kontrol edecegiz, sayi dahil olmamali
+            if(sayi%i ==0){ //sayinin herhangi bir boleni (i) varsa
+                toplam+=i;//toplam degiskenine ekle
+                System.out.print( i + " ");//bolenleri gormek icin
+            }
+        }
+        System.out.println();
+        if(toplam ==sayi){ //bolenlerin toplami sayiya esitse
+            System.out.println(sayi + " sayisi mukemmel sayidir");
+        }else
+            System.out.println(sayi + " sayisi mukemmel sayi degildir");
+    }
+
+
+
 }
