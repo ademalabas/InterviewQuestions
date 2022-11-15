@@ -1,4 +1,4 @@
-package ClarusWay_InterviewQuestionsJava.src.day1;
+package ClarusWay_InterviewQuestionsJava.day1;
 
 import java.util.Arrays;
 import java.util.Scanner;

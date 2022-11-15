@@ -1,4 +1,4 @@
-package ClarusWay_InterviewQuestionsJava.src.day1;
+package ClarusWay_InterviewQuestionsJava.day1;
 
 public class Q06_FrequencyWithStringVaalueOf {
       /*
