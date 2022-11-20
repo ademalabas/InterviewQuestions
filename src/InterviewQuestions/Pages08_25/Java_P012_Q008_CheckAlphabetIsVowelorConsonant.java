@@ -11,6 +11,8 @@ public class Java_P012_Q008_CheckAlphabetIsVowelorConsonant {
         }else {
             System.out.println(ch+ " is consonant");
         }
+
+
          // Second Way
          switch (ch) {
             case 'a':
