@@ -3,7 +3,7 @@ package InterviewQuestions.Pages08_25;
 public class Java_P014_Q010_LeapYear {
     public static void main(String[] args) {
         // Question : Find the leap year
-        int year = 2022;
+        int year = 1904;
        boolean leapYear = false;
         if (year %4 ==0){
             if (year %100 ==0){
