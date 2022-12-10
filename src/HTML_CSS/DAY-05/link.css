@@ -1,0 +1,14 @@
+a:link {
+  color: aqua;
+  text-decoration: none;
+}
+a:visited {
+  color: darkmagenta;
+}
+a:hover {
+  color: green;
+}
+
+p:hover {
+  color: red;
+}

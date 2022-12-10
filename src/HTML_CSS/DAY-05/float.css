@@ -1,0 +1,12 @@
+.kutu {
+  width: 100px;
+  height: 100px;
+  background-color: #222222;
+  color: white;
+  float: left;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+.clearfix {
+  clear: both;
+}
